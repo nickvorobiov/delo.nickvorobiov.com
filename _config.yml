@@ -6,6 +6,7 @@ exclude:
   - package.json
   - README.md
   - gulpfile.js
+  - scripts
 
 title: "Вебинар «Дело Жизни»"
 description: "Помогу выбрать любимое дело и сделать из него прибыльный бизнес"
