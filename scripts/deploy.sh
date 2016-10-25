@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 if [[ $TRAVIS_BRANCH == 'gh-pages' ]] ; then
   cd _site
