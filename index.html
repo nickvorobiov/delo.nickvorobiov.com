@@ -2,22 +2,24 @@
 layout: base
 ---
 
-<div class="block block-bordered b-head">
+<div class="block block-bordered b-head text-center">
   <div class="container">
     <h4 class="text-center text-muted">Николай Воробьёв. Специалист по&nbsp;выбору дела жизни. Без&nbsp;эзотерики и&nbsp;с&nbsp;немедленным внедрением</h4>
     <h1 class="text-center m-b-lg">Помогу выбрать любимое дело и&nbsp;сделать из&nbsp;него прибыльный бизнес</h1>
     <!--h1 class="text-center m-b-lg">Найди дело жизни и открой бизнес за 14 дней чтобы получать не только прибыль, но и удовольствие</h1>
     <h1 class="text-center m-b-lg">Зарабатывай на любимом деле</h1-->
-    <div class="row">
+    <div class="row m-b">
       <div class="col-md-6 col-md-offset-3">
-        <p class="text-center">
-          Запишись на вебинар, чтобы получить подробный пошаговый план выбора дела жизни и&nbsp;приглашение на&nbsp;персональный коучинг
-        </p>
+        Запишись на вебинар, чтобы получить подробный пошаговый план выбора дела жизни и&nbsp;приглашение на&nbsp;персональный коучинг
       </div>
     </div>
-    <p class="text-center">
-      <a class="btn btn-primary btn-lg">Записаться на вебинар</a>
-    </p>
+    <form class="form-inline" data-toggle="validator" method="post" action="http://bot.nickvorobiov.com/order.php">
+      <input type="text" required="required" name="email" class="form-control m-b" placeholder="Электронная почта">
+      <button type="submit" class="btn btn-primary m-b">Записаться на вебинар</button>
+      <input type="hidden" name="traffic_source" />
+      <input type="hidden" name="trello-list-id" value="580f23079b6c5b1279318396" />
+      <input type="hidden" name="redirect" value="http://delo.nickvorobiov.com/tripwire/" />
+    </form>
   </div>
 </div>
 
@@ -72,7 +74,7 @@ layout: base
             в какое дело тебе будет интересно вкладываться
           </li>
         </ul>
-        <p><a class="btn btn-primary btn-lg">Получить план</a></p>
+        <p><a class="btn btn-primary btn-lg js-scr" href="#">Получить план</a></p>
       </div>
     </div>
   </div>
@@ -111,7 +113,7 @@ layout: base
     <br/>как начать получать первую прибыль</p>
 
     <p>
-      <a class="btn btn-primary btn-lg">Запишись чтобы выбрать любимое дело</a>
+      <a class="btn btn-primary btn-lg js-scr" href="#">Запишись чтобы выбрать любимое дело</a>
     </p>
   </div>
 </div>
