@@ -1,0 +1,22 @@
+baseurl: ""
+url: "http://delo.nickvorobiov.com"
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - README.md
+  - gulpfile.js
+
+title: "Вебинар «Дело Жизни»"
+description: "Помогу выбрать любимое дело и сделать из него прибыльный бизнес"
+keywords: "личностный рост, самодисциплина, продуктивность, мотивация, цели, целеполагание, достигатор, бизнес, стартап, лендинг, выбор ниши"
+author: "Николай Воробьёв"
+
+permalink: /:title/
+
+#vk_app_id: 5640654 # localhost:8000
+vk_app_id: 5674613 # sprint.nickvorobiov.com
+yandex_metrika: 40389915 # delo.nickvorobiov.com
+google_analytics: UA-46456269-21 # delo.nickvorobiov.com
+#facebook_pixel_id: 1587051131601822
+#vk_retarget_url: '//vk.com/rtrg?r=c49K*HX/UUd8reBObkTO558v1ds7KTgydbeXZU4awu25XUm5HXCUhviGeqMI*/pP/vXg28BBVkusbOsUHDOU1Op3f734oDTxAtpXeU5MmV8USoycVNqA21VXGAuKaUaT2C41Ym/KsvyAq8LtKg2Xohp/SWzJsRDEgW2DKd9REJo-&pixel_id=1000032460'

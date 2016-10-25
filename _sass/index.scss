@@ -1,0 +1,73 @@
+body {
+  font-size: 16px;
+}
+
+.b-head {
+  background-color: #f5f5f5;
+
+  background-image: url(/images/bg2.jpg);
+  background-position: bottom right;
+  background-size: stretch;
+
+  .text-muted {
+    color: #777;
+  }
+
+  h1 {
+    margin-top: 80px;
+    font-weight: 600;
+  }
+}
+
+.highlighted {
+  background-color: rgba(255,255,255,.7);
+}
+
+.b-enjoy {
+  text-align: center;
+  span {
+    font-size: 60px;
+    text-align: center;
+    display: block;
+  }
+}
+
+.b-join {
+  background-color: #f5f5f5;
+
+  background-image: url(../images/b_anchor.jpg);
+
+  .text-muted {
+    color: #777;
+  }
+
+  h1 {
+    margin-top: 80px;
+    font-weight: 600;
+  }
+}
+
+.b-love {
+  background-image: url(/images/bg3.jpg);
+  background-position: center;
+  background-size: stretch;
+}
+
+.btn {
+  white-space: normal;
+}
+
+/***** TRIPWIRE *****/
+
+.b-trip-head {
+  padding-top: 60px;
+  h1 {
+    /*margin-top: 80px;*/
+    font-weight: 600;
+
+    em {
+      font-style: normal;
+      text-decoration: underline;
+    }
+  }
+}
