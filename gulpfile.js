@@ -23,6 +23,11 @@ gulp.task('jekyll', function(done) {
   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
   .on('close', function(){
     gulp.start('css');
+    cp.spawn('htmlproofer', ['./_site'+
+      ' --url-ignore www.youtube.com'+
+      ' --file-ignore /vendor/'+
+      ' --empty-alt-ignore'+
+      ' --alt-ignore "//"'], {stdio: 'inherit'})
     done();
   });
 });
