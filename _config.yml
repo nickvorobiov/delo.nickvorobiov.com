@@ -7,6 +7,9 @@ exclude:
   - README.md
   - gulpfile.js
   - scripts
+  - deploy
+  - deploy-key.enc
+  - deploy-key
 
 title: "Вебинар «Дело Жизни»"
 description: "Помогу выбрать любимое дело и сделать из него прибыльный бизнес"
